@@ -6,7 +6,7 @@
   }
 }
 
-@mixin fixhoverclipping {
+@mixin jankfix {
   &:after {
     content: '';
     height: calc(100% + 0.5rem);
