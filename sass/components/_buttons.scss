@@ -5,7 +5,6 @@
 
   &:link,
   &:visited {
-    color: $color-grey-dark;
     text-transform: uppercase;
     text-decoration: none;
     padding: 1.5rem 4rem;
@@ -15,6 +14,12 @@
 
   &--white {
     background-color: $color-white;
+    color: $color-grey-dark;
+  }
+
+  &--green {
+    background-color: $color-primary;
+    color: white;
   }
 
   &:hover {
